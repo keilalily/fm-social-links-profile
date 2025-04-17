@@ -12,7 +12,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Overview
 
-This project is a solution to the Social links profile challenge on Frontend Mentor. The challenge was to build a clean, responsive Social links profile component that closely matches the design provided, using best practices for structure and styling.
+This project is a solution to the Social Links Profile challenge on Frontend Mentor. The challenge was to build a clean, responsive social links profile component where users should be able to see hover and focus states for all interactive elements on the page.
 
 - Live Demo
 [View the Live Site](https://keilalily.github.io/fm-social-links-profile/)

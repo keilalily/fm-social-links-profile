@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Inter;
+    src: url("../assets/fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url("../assets/fonts/Inter-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Inter-Bold;
+    src: url("../assets/fonts/Inter-Bold.ttf");
+}
+
+@theme {
+    --breakpoint-sm: 320px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --color-green: hsl(75, 94%, 57%);
+    --color-grey-700: hsl(0, 0%, 20%);
+    --color-grey-800: hsl(0, 0%, 12%);
+    --color-grey-900: hsl(0, 0%, 8%);
+    --font-inter: Inter, 'sans-serif';
+    --font-inter-semibold: Inter-SemiBold, 'sans-serif';
+    --font-inter-bold: Inter-Bold, 'sans-serif';
+}
+
+.btn {
+    @apply
+        w-full bg-(--color-grey-700) rounded-lg text-[14px] font-inter-semibold p-3
+        hover:bg-(--color-green) hover:text-black hover:cursor-pointer
+        focus:bg-(--color-green) focus:text-black
+        active:bg-(--color-green) active:text-black
+}
